@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: rotors_description
+    relative_path: urdf/firefly_base.xacro
+    xacro_args: --inorder namespace:=firefly enable_ground_truth:=true enable_logging:=false enable_mavlink_interface:=false
+  SRDF:
+    relative_path: config/firefly.srdf
+  CONFIG:
+    author_name: praveen
+    author_email: praveen98ok@gmail.com
+    generated_timestamp: 1617022676
